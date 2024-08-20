@@ -15,4 +15,12 @@ Preparing the data
 
 Selecting and training the model
 
-Evaluating and Fine tuning the model
+Evaluating and Fine-tuning the model
+
+
+Data:
+
+The stock market is a time series data, so there are several important considerations to ensure that your analysis, modelling, and predictions are valid and meaningful. 
+
+1. The sequence of data points in a time series is crucial. Shuffling or randomizing the data can destroy the temporal structure, leading to misleading results. Time series data often exhibits autocorrelation, where past values influence future values.
+2. A time series is stationary if its statistical properties (mean, variance, autocorrelation, etc.) are constant over time.
